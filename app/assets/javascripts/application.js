@@ -20,8 +20,9 @@
 //= require ember-data
 //= require_self
 //= require ./app
+//= require_tree .
 
 // for more details see: http://emberjs.com/guides/application/
-App = Ember.Application.create();
+//App = Ember.Application.create();
+App = Ember.Application.create({rootElement: '#ember-app'})
 
-//= require_tree .

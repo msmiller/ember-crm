@@ -1,3 +1,15 @@
 // app/assets/javascripts/templates/application.js.emblem
-h1 Hello World
-outlet
+//h1 Hello World
+//outlet
+
+// app/assets/javascripts/templates/application.js.emblem
+header
+  article
+    .logo
+      h1
+        a href="#" Ember CRM
+
+section#main
+  = outlet
+
+footer
