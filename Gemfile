@@ -32,9 +32,19 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#########################
+#### START EMBER-CRM ####
+
 gem 'ember-rails'
 gem 'ember-source', '~> 1.8.1'
 gem 'emblem-rails'
+
+gem 'ffaker'
+gem 'responders', '~> 2.0'
+gem 'puma'
+
+#### END EMBER-CRM ####
+#######################
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
