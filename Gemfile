@@ -36,12 +36,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #### START EMBER-CRM ####
 
 gem 'ember-rails'
-gem 'ember-source' #, '~> 1.8.1'
+gem 'ember-source', '~> 1.9.0' # or the version you need
 gem 'emblem-rails'
 
 gem 'ffaker'
 gem 'responders', '~> 2.0'
 gem 'puma'
+
+#gem 'active_model_serializers', github: 'rails-api/active_model_serializers', branch: '0-9-stable'
 
 #### END EMBER-CRM ####
 #######################

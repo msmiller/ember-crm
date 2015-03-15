@@ -9,7 +9,7 @@ App.Router.map(function() {
   this.resource('leads', { path: '/' })
 })
 
-App.Router.map(function() {
+//App.Router.map(function() {
   // this.resource('posts');
-});
+//});
 
